@@ -8,14 +8,10 @@
  */
 
 #include <iostream>
-#include <vector>
-#include <string>
 
-#include <lib/hello_world.h>
+#include "hello_world.h"
 
-using namespace World;
-
-int TestClass::main(){
+int main(){
     std::cout << "Hello World!";
     return 0;
 };
